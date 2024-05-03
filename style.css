@@ -230,3 +230,21 @@ h4 {
     display: flex;
     justify-content: right;
 }
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
