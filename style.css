@@ -1,0 +1,232 @@
+:root {
+    --h1color: #1b1b1b;
+    --h2color: #3d3d3d;
+    --h3color: #505050;
+    --bgcolor: #fffff4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6cacff, #8debff);;
+}
+
+h1 {
+    font-size: 18pt;
+    color: var(--h1color);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 12pt;
+    color: var(--h2color);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 10pt;
+    color: var(--h3color);
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 8pt;
+    color: var(--h3color);
+    font-weight: 200;
+}
+
+#main-section {
+    display: flex;
+    gap: 25pt;
+    justify-content: center;
+    padding-top: 25pt;
+}
+
+.index-card {
+    border-radius: 25pt;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+    background-color: var(--bgcolor);
+}
+
+#profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450pt;
+    height: 425pt;
+}
+
+.profile-card-row-container {
+    display: flex;
+    justify-content: center;
+    width: 450pt;
+}
+
+.profile-card-row {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 20pt;
+}
+
+.profile-picture {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture img {
+    width: 150pt;
+    height: 150pt;
+    border-radius: 50%;
+}
+
+.profile-description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225pt;
+    height: 225pt;
+}
+
+.profile-description {
+    width: fit-content;
+}
+
+.profile-description h1 {
+    margin-bottom: 0%;
+}
+
+#bio {
+    margin-bottom: 16pt;
+}
+
+#description {
+    max-width: 225pt;
+}
+
+.profile-connect-container {
+    width: 450pt;
+}
+
+.profile-connect-container h1 {
+    text-align: center;
+    align-items: center;
+}
+
+#connect-card-container {
+    display: flex;
+    gap: 10pt;
+    justify-content: center;
+    padding-top: 10pt;
+    padding-bottom: 45pt;
+}
+
+.connect-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85pt;
+    height: 100pt;
+    padding: 0pt 10pt 10pt 10pt;
+    border-radius: 7pt;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.connect-card h2 {
+    max-width: fit-content;
+}
+
+.connect-card h3 {
+    max-width: fit-content;
+}
+
+.skill-card-container {
+    display: block;
+    width: 365pt;
+}
+
+.skill-card-container h1 {
+    margin-bottom: 10pt;
+}
+
+#skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30pt;
+    width: 425pt;
+    height: 200pt;
+    border-radius: 25pt;
+}
+
+#set-list {
+    font-size: 10pt;
+    color: var(--h3color);
+    font-weight: 200;
+    list-style-type: disc;
+    margin-left: 16pt;
+}
+
+.list-weighted {
+    font-weight: 400;
+}
+
+#second-row {
+    margin-top: 25pt;
+    gap: 25pt;
+    display: flex;
+}
+
+#language-card {
+    width: 200pt;
+    height: 200pt;
+    display: flex;
+    justify-content: center;
+}
+
+.language-card-container {
+    width: 140pt;
+    margin-top: 30pt;
+}
+
+.language-card-container h1 {
+    width: 140pt;
+    margin-bottom: 10pt;
+}
+
+#portfolio-card {
+    width: 200pt;
+    height: 200pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-card-container {
+    width: 140pt;
+    margin-top: 30pt;
+    height: fit-content;
+}
+
+.portfolio-card-container h1 {
+    width: 140pt;
+    margin-bottom: 10pt;
+}
+
+.button-container {
+    width: 160pt;
+    display: flex;
+    justify-content: right;
+}
